@@ -1,0 +1,113 @@
+# =========================
+# PYTHON / FASTAPI BACKEND
+# =========================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+env/
+venv/
+.newvenv/
+ENV/
+.Python
+
+# Logs and caches
+*.log
+*.out
+*.pid
+*.seed
+.cache/
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite3
+*.db-journal
+
+# FastAPI / Uvicorn
+*.sock
+
+# Environment variables
+/backend/.env
+/backend/.env.*
+!.backend/.env.example
+
+# Alembic migrations (compiled junk)
+backend/alembic/versions/*.pyc
+backend/alembic/__pycache__/
+
+# Static and media files
+backend/staticfiles/
+backend/media/
+
+# Build and distribution
+build/
+dist/
+.eggs/
+*.egg-info/
+*.whl
+
+# Docker
+*.tar
+*.bak
+docker-compose.override.yml
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# REACT FRONTEND
+# =========================
+
+# Node / npm / yarn
+/frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Build output
+/frontend/build/
+/frontend/dist/
+/frontend/.next/
+/frontend/out/
+
+# Local environment files
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Misc frontend cache
+/.eslintcache
+/.stylelintcache
+/.parcel-cache
+/.cache/
+
+# IDE / Editor configs
+/frontend/.vscode/
+frontend/.idea/
+
+# OS-specific
+frontend/.DS_Store
+frontend/Thumbs.db

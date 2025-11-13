@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+newvenv/
+env/
+.newvenv/
+.env/
+ENV/
+.Python
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and caches
+*.log
+*.out
+*.pid
+*.seed
+.cache/
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Databases and storage
+*.db
+*.sqlite3
+
+# FastAPI / Uvicorn
+*.db-journal
+*.pid
+*.sock
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Migrations (if using Alembic)
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# Static and media files
+staticfiles/
+media/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# Docker
+*.tar
+*.bak
+docker-compose.override.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db
